@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Header</title>
+</head>
+<body>
+    <a href="{%url 'home'%}">bosh sahifa </a>
+    <a href="{%url 'about' %}">biz haqimizda</a>
+    <a href="{%url 'resume' %}">bizning bilimlar</a>
+    <a href="{%url 'serves' %}">biz xizmatlar</a>
+
+    {% block content%}
+    {% endblock content%}
+
+</body>
+</html>
